@@ -1,10 +1,11 @@
-$(function () {
-  $("p").addClass("bold")
-  $("p").removeClass("bold")
-  var text1 = $("p").text();
-  console.log(text1);
+$("p").on("click",function(){
+  $(this).addClass("testToggle");
 });
 
-$("p").on("click",function(){
-  $(this).toggleClass('testToggle');
+$("p").on("dblclick",function(){
+  $(this).removeClass("testToggle");
 });
+
+$(".test4").on("click",function(){
+  $("p").off("dblclick");
+})
