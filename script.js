@@ -1,11 +1,4 @@
-$("p").on("click",function(){
-  $(this).addClass("testToggle");
+$(function(){
+  $("p").html("htmlメソッドによってかきかえる");
+    $('div.test4').html("<p>サンプルです</p>");
 });
-
-$("p").on("dblclick",function(){
-  $(this).removeClass("testToggle");
-});
-
-$(".test4").on("click",function(){
-  $("p").off("dblclick");
-})
