@@ -1,3 +1,40 @@
+body{
+  background-color: #c0c0c0;
+}
+h2{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
 p{
+  margin: 0;
+}
+.fq{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+dt{
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+}
+dd{
   display: none;
+  background-color: #f8e6e6;
+  margin: 0;
+  padding: 20px;
+}
+span.open{
+  width: 20px;
+  height: 20px;
+  background-image: url(.img/icon-p.png);
+  background-size: contain;
+}
+span.close{
+background-image: url(img/icon-m.png);
+width: 20px;
+height: 20px;
+background-size: contain;
 }
