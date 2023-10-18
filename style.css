@@ -29,7 +29,7 @@ dd{
 span.open{
   width: 20px;
   height: 20px;
-  background-image: url(.img/icon-p.png);
+  background-image: url(img/icon-p.png);
   background-size: contain;
 }
 span.close{
